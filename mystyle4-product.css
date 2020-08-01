@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e1e162;
+}
+/*Global styling*/
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+/*Styling the header, description and navbar*/
+#title{
+    margin-top: -70px;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+}
+#description{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #ff0000dc;
+}
+#navbar li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    text-align: right;
+}
+#navbar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#navbar :hover{
+    color: #008000;
+}
+/*Styling the form*/
+#my-form{
+    margin-left: 600px;
+    width: 20%;
+    background-color: #808080;
+    margin-top: 40px;
+    padding: 10px;
+    border: 3px #ffffff solid;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#my-form input[type="email"]{
+    padding: 5px;
+    margin-top: 10px;
+}
+#button{
+    margin-top: 10px;
+    width: 82%;
+    padding: 5px;
+}
+/*Styling the main section*/
+#section{
+    margin-top: 60px;
+    padding: 15px;
+}
+#section h3{
+    text-align: center;
+    text-decoration: underline;
+}
+/*Styling the video*/
+#video{
+    margin-top: 50px;
+    text-align: center;
+}
+/*Flexbox styling and the 3 boxes*/
+.flexbox{
+    display: flex;
+    background-color: DodgerBlue;
+    margin-top: 50px;
+}
+.box{
+    background-color: #f1f1f1;
+    margin: 8px;
+    padding: 20px;
+    font-size: 18px;
+}
+.box h4{
+    font-weight: 800;
+}
+/*Styling the footer and bottom navbar*/
+#bottom-navbar{
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#bottom-navbar a{
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    padding-left: 15px;
+}
+#footer{
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #808080ed;
+    width: 100%;
+}
+#copyright{
+    text-align: center;
+    color: #ffffff;
+}
+#bottom-navbar a{
+    color: #ffffff;
+}
+#bottom-navbar :hover{
+    color: #008000;
+}
+
+
+    
